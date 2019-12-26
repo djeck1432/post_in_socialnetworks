@@ -1,0 +1,11 @@
+*env
+*.json
+*.jpg
+*.env
+*main.py
+*.DS_Store
+*.idea/misc.xml
+*idea/modules.xml
+*.idea/post_in_social_network.iml
+*.idea/vcs.xml
+*.idea/workspace.xml
