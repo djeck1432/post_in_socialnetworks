@@ -6,7 +6,7 @@ import facebook
 
 
 
-def post_facebook(image_path, text):
+def post_facebook(facebook_token, image_path, text):
     graph = facebook.GraphAPI(access_token=facebook_token, version='3.1')
     with open(image_path, 'rb') as image:
         graph.put_photo(image=image, album_path='2512489632341360' + '/photos', message=text)
@@ -20,4 +20,4 @@ if __name__ == '__main__':
     parser.add_argument('image_path', help='Введите ссылку на изображения')
     parser.add_argument('text', help='Введите текст к изображению')
     args = parser.parse_args()
-    post_facebook(args.image_path, args.text)
+    post_facebook(facebook_token, args.image_path, args.text)
