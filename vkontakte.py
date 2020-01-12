@@ -4,7 +4,7 @@ import os
 import argparse
 
 
-def post_vkontakte(vk_token, vk_phone, vk_password, image_path, text):
+def post_vkontakte(vk_token, image_path, text):
     vk_session = vk_api.VkApi(vk_phone, vk_password)
     vk = vk_session.get_api()
     vk_session.auth()
