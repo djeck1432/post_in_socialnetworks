@@ -4,7 +4,7 @@ import os
 import argparse
 
 
-def post_vkontakte(image_path, text):
+def post_vkontakte(vk_token, vk_phone, vk_password, image_path, text):
     vk_session = vk_api.VkApi(vk_phone, vk_password)
     vk = vk_session.get_api()
     vk_session.auth()
@@ -31,4 +31,4 @@ if __name__ == '__main__':
     parser.add_argument('image_path', help='Введите url-изображения')
     parser.add_argument('text', help='Введите текст')
     args = parser.parse_args()
-    post_vkontakte(args.image_path, args.text)
+    post_vkontakte(vk_token, args.image_path, args.text)
