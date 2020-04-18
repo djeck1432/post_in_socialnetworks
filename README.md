@@ -1,23 +1,20 @@
-# Публикации постов в социальные сети
+# Publication of posts on social media 
+This code will help you to simplify posting on such different social networks as ```FB``` and ```VK```, and also the messenger ```Telegram```. You would be able to post not only the text, but to add a picture to the post as well. 
 
-Этот код, поможет вам упростить задачу с публикациями в разные социальные сети, такие как ```FB``` и ```VK```,
-а также мессенджер ```Telegram```. Вы сможете публиковать не только текст, а загрузить изображения к постам.
-
-# Как установить
-
-Python3 должен быть уже установлен. Затем используйте pip (или pip3, есть конфликт с Python2) для установки зависимостей:<br>
+# How to install
+Python3 have to be already installed. Then use pip (or pip3, there is a contravention with Python2) to install dependencies: :<br>
 
 ``` git clone https://github.com/djeck1432/post_in_socialnetworks.git ```
 
-После того, как скачали репозиторий, откройте в терминале(MacOs) или в консоли(Linux) папку ```post_in_socialnetworks``` следующей командой:<br>
+After you downloaded the repository open a folder ```post_in_socialnetworks``` using next command: <br>
 
 ```cd post_in_socialnetworks```
 
-Для того, что бы запустить код, нужно установить необходимые библиотеки:<br>
+Now all of the required libraries and modules have to be installed:<br>
 
 ```pip install -r requirements.txt ```<br>
 
-Готово, мы установили проект и все необходимые библиотеки у нас на компьютере.
+Now we are ready for the script .
 
 ## Переменные окружения 
 В социальной сети ```Vk```:
