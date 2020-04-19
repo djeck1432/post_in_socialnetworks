@@ -16,37 +16,36 @@ Now all of the required libraries and modules have to be installed:<br>
 
 Now we are ready for the script .
 
-## Переменные окружения 
-В социальной сети ```Vk```:
+## Enviremont variables
+In socail network ```Vk```:
 <br>
-```VK_TOKEN``` - токен доступа от ```Vk```;
+```VK_TOKEN``` - token for ```Vk```;
 <br>
-```VK_PHONE```- номер телефона, на который зарегестрирован  ```Vk```;
+```VK_PHONE```- phone number for  ```Vk```;
 <br>
-```VK_PASSWORD ```- пароль от учетной записи;
+```VK_PASSWORD ```- password;
 <br>
-```VK_ALBUM_ID```- ```id``` альбома в вашей группе;
+```VK_ALBUM_ID```- ```id``` album in your group;
 <br>
-```VK_OWNER_ID```- ```id``` вашей страницы;
-<br>
-<br>
-В социальной сети ```Fb```:
-<br>
-```FACEBOOK_TOKEN```-  токен доступа от ```Fb```;
-<br>
-```FACEBOOK_GROUP_ID```- ```id``` группы в ```Fb```;
+```VK_OWNER_ID```- ```id``` your page;
 <br>
 <br>
-В месенджере ```Telegram```:
+In social network ```Fb```:
 <br>
-```TELEGRAM_TOKEN```- токен доступа от ```Telegram```;
+```FACEBOOK_TOKEN```-  token for ```Fb```;
 <br>
-```TELEGRAM_CHAT_ID```- имя вашего чата/канала в ```Telegram```;
+```FACEBOOK_GROUP_ID```- ```id``` group for ```Fb```;
+<br>
+<br>
+In messenger ```Telegram```:
+<br>
+```TELEGRAM_TOKEN```- token for ```Telegram```;
+<br>
+```TELEGRAM_CHAT_ID```- name of chat/chanel in ```Telegram```;
 <br>
 
-## Что нужно знать
-
-Каждая социальная сеть или мессенджер выполнен как отдельная функция
+## What you need to know
+Each social networks or messenger are as a self function:
 <br>
 ```Telegram ``` - ```tg.py```;
 <br>
@@ -54,25 +53,25 @@ Now we are ready for the script .
 <br>
 ```Vkontakte``` - ```vkontakte.py```;
 <br>
-Каждая из этих функций принимает два параметра:```image_path```, ```text``` :
-<br> где ```image_path``` - это путь к изображению, которое вы хотите загрузить;
+
+Each of these functions takes two options:```image_path```, ```text``` :
+<br> Where ```image_path``` -  is path to image, which will be download;
 <br>
-```text``` - текст публикации;<br>
+```text``` - text publish;<br>
 <br>
 
-# Как сделать пост 
-
-В терминале, выполните следующую команду:
+# How to make a post
+Do in the terminal next command:
 <br>
 
 ```python3 fb.py image_path text``` 
 <br>
 
-Где вместо ```image_path```- путь к изображению,
+Where ```image_path```- is path to image,
 <br>
- ```text``` - текст.
+ ```text``` - text.
 
 
-Готово, вы опубликовали первый пост в ```Fb```.
+Done, you posted the first post in ```FB```.
 <br>
-Если хотите опубликовать в другую социальную сеть, замените ```fb.py``` на ```tg.py``` или на ```vkontakte.py```.
+If you want to post to another social network, replace ```fb.py``` to ```tg.py``` or to ```vkontakte.py```.
