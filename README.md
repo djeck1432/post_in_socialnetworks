@@ -66,12 +66,9 @@ Do in the terminal next command:
 
 ```python3 fb.py image_path text``` 
 <br>
-
 Where ```image_path```- is path to image,
 <br>
  ```text``` - text.
-
-
 Done, you posted the first post in ```FB```.
 <br>
 If you want to post to another social network, replace ```fb.py``` to ```tg.py``` or to ```vkontakte.py```.
