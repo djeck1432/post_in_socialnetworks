@@ -16,7 +16,7 @@ Now all of the required libraries and modules have to be installed:<br>
 
 Now we are ready for the script .
 
-## Enviremont variables
+## Environment variables
 In socail network ```Vk```:
 <br>
 ```VK_TOKEN``` - token for ```Vk```;
