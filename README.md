@@ -18,19 +18,28 @@ Now we are ready for the script .
 
 ## Environment variables
 In socail network `Vk`:
+
 `VK_TOKEN` - token for `Vk`;
+
 `VK_PHONE`- phone number for  `Vk`;
+
 `VK_PASSWORD`- password;
+
 `VK_ALBUM_ID`- `id` album in your group;
+
 `VK_OWNER_ID`- `id` your page;
+
 In social network `Fb`:
+
 `FACEBOOK_TOKEN`-  token for `FB`;
 
 `FACEBOOK_GROUP_ID`- `id` group for `FB`;
 
 
 In messenger `Telegram`:
+
 `TELEGRAM_TOKEN`- token for `Telegram`;
+
 `TELEGRAM_CHAT_ID`- name of chat/chanel in `Telegram`;
 
 ## What you need to know
